@@ -1,6 +1,3 @@
-package Searching;
-
-import java.util.Arrays;
 
 public class BinarySearch {
 
@@ -11,8 +8,6 @@ public class BinarySearch {
         int[] arr = {1, 2, 3, 4, 5, 6};
 
         int x = 8;
-
-        Arrays.sort(arr);
 
         System.out.println(obj.binarySearchRecursive(arr, 0, arr.length - 1, x));
 
